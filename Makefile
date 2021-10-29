@@ -9,4 +9,4 @@ push:
 	git push && git push heroku
 
 migrate:
-	rails db:migrate RAILS_ENV=migrate
+	rails db:migrate RAILS_ENV=development
