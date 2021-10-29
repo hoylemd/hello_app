@@ -14,5 +14,11 @@ push:
 migrate:
 	rails db:migrate RAILS_ENV=development
 
+rollback:
+	rails db:rollback RAILS_ENV=development
+
+reset-db:
+	rails db:rollback RAILS_ENV=development VERSION=0
+
 test:
 	rails test
