@@ -21,12 +21,7 @@ heroku cli (https://toolbelt.heroku.com/)
 * Configuration/Installation
 
 ```
-bundle _2.2.17_ install
-```
-
-Set to use dev deps only:
-```
-bundle _2.2.17_ config set --local without 'production'
+make install
 ```
 
 * Database creation
@@ -59,6 +54,12 @@ then push it with git
 git push heroku main
 ```
 
+or use the make command, which will push to github first
+
+```
+make push
+```
+
 You can find out where it's viewable by running
 
 ```
@@ -68,7 +69,7 @@ heroku apps:info
 * How to run dev server
 
 ```
-rails server
+make serve
 ```
 
 * How to view dev server
