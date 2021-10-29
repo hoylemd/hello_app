@@ -6,7 +6,7 @@ serve:
 	rails server
 
 push:
-	git push && git push heroku
+	git push && git push heroku && heroku run rails db:migrate
 
 migrate:
 	rails db:migrate RAILS_ENV=development
