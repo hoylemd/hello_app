@@ -26,6 +26,18 @@ make install
 
 * Database creation
 
+* Database migration
+
+```
+make migrate
+```
+
+or
+
+```
+rails db:migrate
+```
+
 * Database initialization
 
 * How to run the test suite
