@@ -42,6 +42,16 @@ rails db:migrate
 
 * How to run the test suite
 
+```
+make test
+```
+
+or 
+
+```
+rails test
+```
+
 * Services (job queues, cache servers, search engines, etc.)
 
 * Provisioning instructions

@@ -13,3 +13,6 @@ push:
 
 migrate:
 	rails db:migrate RAILS_ENV=development
+
+test:
+	rails test
