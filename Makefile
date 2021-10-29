@@ -2,6 +2,9 @@ install:
 	bundle _2.2.17_ config set --local without 'production'
 	bundle _2.2.17_ install
 
+update:
+	bundle _2.2.17_ update
+
 serve:
 	rails server
 
