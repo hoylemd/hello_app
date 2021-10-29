@@ -33,4 +33,14 @@ bundle _2.2.17_ install
 
 * Deployment instructions
 
-* ...
+* How to run dev server
+
+```
+rails server
+```
+
+* How to view dev server
+
+```
+open http://localhost:3000
+```
