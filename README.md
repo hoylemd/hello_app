@@ -7,9 +7,21 @@ Things you may want to cover:
 
 * Ruby version
 
+2.7.4
+
 * System dependencies
 
-* Configuration
+```
+gem install rails -v 6.1.4.1
+gem install bundler -v 2.2.17
+yarn (https://yarnpkg.com/)
+````
+
+* Configuration/Installation
+
+```
+bundle _2.2.17_ install
+```
 
 * Database creation
 
