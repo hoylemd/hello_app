@@ -1,0 +1,9 @@
+# 25 lines is the default, and that is not enough
+Metrics/BlockLength:
+  Max: 40
+  IgnoredMethods: ['describe', 'context', 'define', 'factory', 'options']
+
+# we are not ready for this yet
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
